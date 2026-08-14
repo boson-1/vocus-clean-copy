@@ -1,13 +1,14 @@
 // ==UserScript==
 // @name         vocus 複製去除來源網址
 // @name:en      vocus Clean Copy
-// @namespace    https://vocus.cc/vocus-clean-copy
-// @version      1.0.0
+// @namespace    https://github.com/boson-1/vocus-clean-copy
+// @version      1.0.1
 // @description  複製 vocus（方格子）文章內文時，移除自動附加的「—來自◯◯發佈於◯◯ https://vocus.cc/article/…」尾巴，改用瀏覽器原生複製。
 // @description:en  Stop vocus.cc from appending the author/source line and article URL to copied text.
 // @author       boson
 // @license      MIT
-// @homepageURL  https://vocus.cc/
+// @homepageURL  https://github.com/boson-1/vocus-clean-copy
+// @supportURL   https://github.com/boson-1/vocus-clean-copy/issues
 // @match        https://vocus.cc/*
 // @run-at       document-start
 // @grant        none
